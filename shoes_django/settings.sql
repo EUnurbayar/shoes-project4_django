@@ -1,0 +1,3 @@
+CREATE DATABASE shoes;
+CREATE USER shoesuser WITH PASSWORD 'shoes';
+GRANT ALL PRIVILEGES ON DATABASE shoes TO shoesuser;
